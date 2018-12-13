@@ -158,3 +158,34 @@ nav a:hover {
 	background-color: #36a9e1;
 	margin-top: 10px;	
 }
+.square {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.square div {
+	background-color: #36A9E1;
+	width: 150px;
+	height: 150px;
+	margin-bottom: 20px;
+}
+.make_coment h1 {
+	font-size: 15px;
+
+	
+	
+}
+.make_image {
+	display: flex;
+	border-bottom: 1px solid #ccc;
+
+}
+.make_image img {
+	margin-right: 15px;
+	margin-top: 15px;
+}
+.make_image a {
+	text-decoration: none;
+	color: #000;
+}
